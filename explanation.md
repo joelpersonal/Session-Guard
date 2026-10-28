@@ -302,3 +302,4 @@ Session Guard Project/
 |  Tech Stack:    | React, Express, Redis, PostgreSQL, Autocannon test harness.   |
 +--------------------------------------------------------------------------------+
 ```
+

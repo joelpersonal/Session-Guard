@@ -22,7 +22,11 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Scratch / Unpacked folders
+# Research Paper files & Word docs
+*.docx
+*.doc
+docs/
 docx_extracted/
 docx_lightweight/
 docx_verify/
+
