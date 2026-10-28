@@ -1,0 +1,101 @@
+{
+  "selectedConfig": {
+    "tau1": 0.25,
+    "tau2": 0.55,
+    "weights": {
+      "wC": 0.3,
+      "wA": 0.2,
+      "wD": 0.2,
+      "wQ": 0.15,
+      "wT": 0.1,
+      "wN": 0.05
+    }
+  },
+  "bestF1": 1,
+  "allCandidates": [
+    {
+      "candidateIndex": 1,
+      "tau1": 0.25,
+      "tau2": 0.55,
+      "weights": {
+        "wC": 0.3,
+        "wA": 0.2,
+        "wD": 0.2,
+        "wQ": 0.15,
+        "wT": 0.1,
+        "wN": 0.05
+      },
+      "tp": 24,
+      "fp": 0,
+      "tn": 24,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "fpr": 0
+    },
+    {
+      "candidateIndex": 2,
+      "tau1": 0.3,
+      "tau2": 0.6,
+      "weights": {
+        "wC": 0.3,
+        "wA": 0.2,
+        "wD": 0.2,
+        "wQ": 0.15,
+        "wT": 0.1,
+        "wN": 0.05
+      },
+      "tp": 24,
+      "fp": 0,
+      "tn": 24,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "fpr": 0
+    },
+    {
+      "candidateIndex": 3,
+      "tau1": 0.35,
+      "tau2": 0.65,
+      "weights": {
+        "wC": 0.3,
+        "wA": 0.2,
+        "wD": 0.2,
+        "wQ": 0.15,
+        "wT": 0.1,
+        "wN": 0.05
+      },
+      "tp": 18,
+      "fp": 0,
+      "tn": 24,
+      "fn": 6,
+      "precision": 1,
+      "recall": 0.75,
+      "f1": 0.8571428571428571,
+      "fpr": 0
+    },
+    {
+      "candidateIndex": 4,
+      "tau1": 0.4,
+      "tau2": 0.7,
+      "weights": {
+        "wC": 0.35,
+        "wA": 0.2,
+        "wD": 0.2,
+        "wQ": 0.1,
+        "wT": 0.1,
+        "wN": 0.05
+      },
+      "tp": 18,
+      "fp": 0,
+      "tn": 24,
+      "fn": 6,
+      "precision": 1,
+      "recall": 0.75,
+      "f1": 0.8571428571428571,
+      "fpr": 0
+    }
+  ]
+}

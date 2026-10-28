@@ -1,0 +1,21 @@
+{
+  "name": "sessionguard-backend",
+  "version": "1.0.0",
+  "description": "SessionGuard session-integrity middleware and server",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "pg": "^8.13.1",
+    "pg-mem": "^3.0.4",
+    "ioredis": "^5.4.2",
+    "ioredis-mock": "^8.9.0",
+    "bcryptjs": "^2.4.3",
+    "uuid": "^11.0.5"
+  }
+}
+

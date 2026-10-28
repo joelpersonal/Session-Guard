@@ -1,0 +1,14 @@
+{
+  "name": "sessionguard-harness",
+  "version": "1.0.0",
+  "description": "SessionGuard experiment evaluation harness",
+  "main": "src/runner.js",
+  "scripts": {
+    "start": "node src/runner.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "autocannon": "^8.0.0"
+  }
+}
+

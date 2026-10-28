@@ -1,0 +1,112 @@
+[
+  {
+    "concurrency": 100,
+    "off": {
+      "meanLatencyMs": 43.05,
+      "p95LatencyMs": 78,
+      "reqPerSec": 2322
+    },
+    "on": {
+      "meanLatencyMs": 260.24,
+      "p95LatencyMs": 369,
+      "reqPerSec": 400
+    },
+    "overhead": {
+      "deltaMeanMs": 217.19,
+      "deltaP95Ms": 291,
+      "overheadPercent": 504.5
+    },
+    "system": {
+      "cpuPercent": 18,
+      "memoryMb": 374
+    }
+  },
+  {
+    "concurrency": 500,
+    "off": {
+      "meanLatencyMs": 168.32,
+      "p95LatencyMs": 534,
+      "reqPerSec": 597
+    },
+    "on": {
+      "meanLatencyMs": 528.95,
+      "p95LatencyMs": 646,
+      "reqPerSec": 165
+    },
+    "overhead": {
+      "deltaMeanMs": 360.63000000000005,
+      "deltaP95Ms": 112,
+      "overheadPercent": 214.3
+    },
+    "system": {
+      "cpuPercent": 18,
+      "memoryMb": 389
+    }
+  },
+  {
+    "concurrency": 1000,
+    "off": {
+      "meanLatencyMs": 511.35,
+      "p95LatencyMs": 660,
+      "reqPerSec": 393
+    },
+    "on": {
+      "meanLatencyMs": 758.62,
+      "p95LatencyMs": 1042,
+      "reqPerSec": 309
+    },
+    "overhead": {
+      "deltaMeanMs": 247.26999999999998,
+      "deltaP95Ms": 382,
+      "overheadPercent": 48.4
+    },
+    "system": {
+      "cpuPercent": 18,
+      "memoryMb": 527
+    }
+  },
+  {
+    "concurrency": 5000,
+    "off": {
+      "meanLatencyMs": 508.15,
+      "p95LatencyMs": 1208,
+      "reqPerSec": 393
+    },
+    "on": {
+      "meanLatencyMs": 985.24,
+      "p95LatencyMs": 1165,
+      "reqPerSec": 197
+    },
+    "overhead": {
+      "deltaMeanMs": 477.09000000000003,
+      "deltaP95Ms": 0.01,
+      "overheadPercent": 93.9
+    },
+    "system": {
+      "cpuPercent": 18,
+      "memoryMb": 527
+    }
+  },
+  {
+    "concurrency": 10000,
+    "off": {
+      "meanLatencyMs": 369.93,
+      "p95LatencyMs": 640,
+      "reqPerSec": 567
+    },
+    "on": {
+      "meanLatencyMs": 796.34,
+      "p95LatencyMs": 995,
+      "reqPerSec": 197
+    },
+    "overhead": {
+      "deltaMeanMs": 426.41,
+      "deltaP95Ms": 355,
+      "overheadPercent": 115.3
+    },
+    "system": {
+      "cpuPercent": 18,
+      "memoryMb": 520
+    }
+  }
+]

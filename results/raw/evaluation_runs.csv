@@ -1,0 +1,481 @@
+run_id,scenario_id,scenario_name,ground_truth,method,decision,is_correct,risk_score,detection_latency_ms,time_to_containment_ms,notification_latency_ms,timestamp
+run_1,S1,"Normal Session",benign,token-only,Allow,1,,,,,2026-10-28T06:52:11.535Z
+run_2,S1,"Normal Session",benign,token-only,Allow,1,,,,,2026-10-28T06:52:11.864Z
+run_3,S1,"Normal Session",benign,token-only,Allow,1,,,,,2026-10-28T06:52:12.180Z
+run_4,S1,"Normal Session",benign,token-only,Allow,1,,,,,2026-10-28T06:52:12.496Z
+run_5,S1,"Normal Session",benign,token-only,Allow,1,,,,,2026-10-28T06:52:12.827Z
+run_6,S1,"Normal Session",benign,token-only,Allow,1,,,,,2026-10-28T06:52:13.136Z
+run_7,S1,"Normal Session",benign,token-only,Allow,1,,,,,2026-10-28T06:52:13.466Z
+run_8,S1,"Normal Session",benign,token-only,Allow,1,,,,,2026-10-28T06:52:13.798Z
+run_9,S1,"Normal Session",benign,token-only,Allow,1,,,,,2026-10-28T06:52:14.139Z
+run_10,S1,"Normal Session",benign,token-only,Allow,1,,,,,2026-10-28T06:52:14.456Z
+run_11,S1,"Normal Session",benign,token-only,Allow,1,,,,,2026-10-28T06:52:14.799Z
+run_12,S1,"Normal Session",benign,token-only,Allow,1,,,,,2026-10-28T06:52:15.158Z
+run_13,S1,"Normal Session",benign,token-only,Allow,1,,,,,2026-10-28T06:52:15.457Z
+run_14,S1,"Normal Session",benign,token-only,Allow,1,,,,,2026-10-28T06:52:15.742Z
+run_15,S1,"Normal Session",benign,token-only,Allow,1,,,,,2026-10-28T06:52:16.056Z
+run_16,S2,"Legitimate Network Change",benign,token-only,Allow,1,,,,,2026-10-28T06:52:16.372Z
+run_17,S2,"Legitimate Network Change",benign,token-only,Allow,1,,,,,2026-10-28T06:52:16.727Z
+run_18,S2,"Legitimate Network Change",benign,token-only,Allow,1,,,,,2026-10-28T06:52:17.088Z
+run_19,S2,"Legitimate Network Change",benign,token-only,Allow,1,,,,,2026-10-28T06:52:17.427Z
+run_20,S2,"Legitimate Network Change",benign,token-only,Allow,1,,,,,2026-10-28T06:52:17.724Z
+run_21,S2,"Legitimate Network Change",benign,token-only,Allow,1,,,,,2026-10-28T06:52:18.020Z
+run_22,S2,"Legitimate Network Change",benign,token-only,Allow,1,,,,,2026-10-28T06:52:18.318Z
+run_23,S2,"Legitimate Network Change",benign,token-only,Allow,1,,,,,2026-10-28T06:52:18.678Z
+run_24,S2,"Legitimate Network Change",benign,token-only,Allow,1,,,,,2026-10-28T06:52:18.961Z
+run_25,S2,"Legitimate Network Change",benign,token-only,Allow,1,,,,,2026-10-28T06:52:19.323Z
+run_26,S2,"Legitimate Network Change",benign,token-only,Allow,1,,,,,2026-10-28T06:52:19.670Z
+run_27,S2,"Legitimate Network Change",benign,token-only,Allow,1,,,,,2026-10-28T06:52:20.000Z
+run_28,S2,"Legitimate Network Change",benign,token-only,Allow,1,,,,,2026-10-28T06:52:20.325Z
+run_29,S2,"Legitimate Network Change",benign,token-only,Allow,1,,,,,2026-10-28T06:52:20.629Z
+run_30,S2,"Legitimate Network Change",benign,token-only,Allow,1,,,,,2026-10-28T06:52:20.945Z
+run_31,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:21.117Z
+run_32,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:21.288Z
+run_33,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:21.462Z
+run_34,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:21.634Z
+run_35,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:21.791Z
+run_36,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:21.963Z
+run_37,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:22.134Z
+run_38,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:22.320Z
+run_39,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:22.510Z
+run_40,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:22.684Z
+run_41,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:22.856Z
+run_42,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:23.028Z
+run_43,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:23.202Z
+run_44,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:23.375Z
+run_45,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:23.564Z
+run_46,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:23.753Z
+run_47,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:23.942Z
+run_48,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:24.129Z
+run_49,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:24.303Z
+run_50,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:24.505Z
+run_51,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:24.772Z
+run_52,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:24.952Z
+run_53,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:25.127Z
+run_54,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:25.297Z
+run_55,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:25.488Z
+run_56,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:25.657Z
+run_57,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:25.851Z
+run_58,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:26.020Z
+run_59,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:26.242Z
+run_60,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,token-only,Allow,0,,,,,2026-10-28T06:52:26.417Z
+run_61,S5,"Concurrent Interleaved Credential Use",attack,token-only,Allow,0,,,,,2026-10-28T06:52:26.584Z
+run_62,S5,"Concurrent Interleaved Credential Use",attack,token-only,Allow,0,,,,,2026-10-28T06:52:26.757Z
+run_63,S5,"Concurrent Interleaved Credential Use",attack,token-only,Allow,0,,,,,2026-10-28T06:52:26.972Z
+run_64,S5,"Concurrent Interleaved Credential Use",attack,token-only,Allow,0,,,,,2026-10-28T06:52:27.189Z
+run_65,S5,"Concurrent Interleaved Credential Use",attack,token-only,Allow,0,,,,,2026-10-28T06:52:27.380Z
+run_66,S5,"Concurrent Interleaved Credential Use",attack,token-only,Allow,0,,,,,2026-10-28T06:52:27.585Z
+run_67,S5,"Concurrent Interleaved Credential Use",attack,token-only,Allow,0,,,,,2026-10-28T06:52:27.806Z
+run_68,S5,"Concurrent Interleaved Credential Use",attack,token-only,Allow,0,,,,,2026-10-28T06:52:27.994Z
+run_69,S5,"Concurrent Interleaved Credential Use",attack,token-only,Allow,0,,,,,2026-10-28T06:52:28.183Z
+run_70,S5,"Concurrent Interleaved Credential Use",attack,token-only,Allow,0,,,,,2026-10-28T06:52:28.357Z
+run_71,S5,"Concurrent Interleaved Credential Use",attack,token-only,Allow,0,,,,,2026-10-28T06:52:28.529Z
+run_72,S5,"Concurrent Interleaved Credential Use",attack,token-only,Allow,0,,,,,2026-10-28T06:52:28.716Z
+run_73,S5,"Concurrent Interleaved Credential Use",attack,token-only,Allow,0,,,,,2026-10-28T06:52:28.903Z
+run_74,S5,"Concurrent Interleaved Credential Use",attack,token-only,Allow,0,,,,,2026-10-28T06:52:29.095Z
+run_75,S5,"Concurrent Interleaved Credential Use",attack,token-only,Allow,0,,,,,2026-10-28T06:52:29.271Z
+run_76,S6,"Sensitive Action from Anomalous Context",attack,token-only,Allow,0,,,,,2026-10-28T06:52:29.427Z
+run_77,S6,"Sensitive Action from Anomalous Context",attack,token-only,Allow,0,,,,,2026-10-28T06:52:29.584Z
+run_78,S6,"Sensitive Action from Anomalous Context",attack,token-only,Allow,0,,,,,2026-10-28T06:52:29.756Z
+run_79,S6,"Sensitive Action from Anomalous Context",attack,token-only,Allow,0,,,,,2026-10-28T06:52:29.910Z
+run_80,S6,"Sensitive Action from Anomalous Context",attack,token-only,Allow,0,,,,,2026-10-28T06:52:30.069Z
+run_81,S6,"Sensitive Action from Anomalous Context",attack,token-only,Allow,0,,,,,2026-10-28T06:52:30.239Z
+run_82,S6,"Sensitive Action from Anomalous Context",attack,token-only,Allow,0,,,,,2026-10-28T06:52:30.398Z
+run_83,S6,"Sensitive Action from Anomalous Context",attack,token-only,Allow,0,,,,,2026-10-28T06:52:30.554Z
+run_84,S6,"Sensitive Action from Anomalous Context",attack,token-only,Allow,0,,,,,2026-10-28T06:52:30.714Z
+run_85,S6,"Sensitive Action from Anomalous Context",attack,token-only,Allow,0,,,,,2026-10-28T06:52:30.928Z
+run_86,S6,"Sensitive Action from Anomalous Context",attack,token-only,Allow,0,,,,,2026-10-28T06:52:31.100Z
+run_87,S6,"Sensitive Action from Anomalous Context",attack,token-only,Allow,0,,,,,2026-10-28T06:52:31.305Z
+run_88,S6,"Sensitive Action from Anomalous Context",attack,token-only,Allow,0,,,,,2026-10-28T06:52:31.462Z
+run_89,S6,"Sensitive Action from Anomalous Context",attack,token-only,Allow,0,,,,,2026-10-28T06:52:31.634Z
+run_90,S6,"Sensitive Action from Anomalous Context",attack,token-only,Allow,0,,,,,2026-10-28T06:52:31.804Z
+run_91,S7,"Legitimate Sensitive Action (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:32.187Z
+run_92,S7,"Legitimate Sensitive Action (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:32.543Z
+run_93,S7,"Legitimate Sensitive Action (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:32.902Z
+run_94,S7,"Legitimate Sensitive Action (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:33.278Z
+run_95,S7,"Legitimate Sensitive Action (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:33.654Z
+run_96,S7,"Legitimate Sensitive Action (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:34.048Z
+run_97,S7,"Legitimate Sensitive Action (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:34.390Z
+run_98,S7,"Legitimate Sensitive Action (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:34.827Z
+run_99,S7,"Legitimate Sensitive Action (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:35.179Z
+run_100,S7,"Legitimate Sensitive Action (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:35.568Z
+run_101,S7,"Legitimate Sensitive Action (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:35.957Z
+run_102,S7,"Legitimate Sensitive Action (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:36.334Z
+run_103,S7,"Legitimate Sensitive Action (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:36.682Z
+run_104,S7,"Legitimate Sensitive Action (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:37.058Z
+run_105,S7,"Legitimate Sensitive Action (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:37.464Z
+run_106,S8,"Legitimate Multi-Device Sequential (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:37.929Z
+run_107,S8,"Legitimate Multi-Device Sequential (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:38.382Z
+run_108,S8,"Legitimate Multi-Device Sequential (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:38.831Z
+run_109,S8,"Legitimate Multi-Device Sequential (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:39.271Z
+run_110,S8,"Legitimate Multi-Device Sequential (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:39.713Z
+run_111,S8,"Legitimate Multi-Device Sequential (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:40.181Z
+run_112,S8,"Legitimate Multi-Device Sequential (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:40.622Z
+run_113,S8,"Legitimate Multi-Device Sequential (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:41.086Z
+run_114,S8,"Legitimate Multi-Device Sequential (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:41.543Z
+run_115,S8,"Legitimate Multi-Device Sequential (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:42.015Z
+run_116,S8,"Legitimate Multi-Device Sequential (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:42.452Z
+run_117,S8,"Legitimate Multi-Device Sequential (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:42.893Z
+run_118,S8,"Legitimate Multi-Device Sequential (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:43.350Z
+run_119,S8,"Legitimate Multi-Device Sequential (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:43.823Z
+run_120,S8,"Legitimate Multi-Device Sequential (Benign)",benign,token-only,Allow,1,,,,,2026-10-28T06:52:44.279Z
+run_121,S1,"Normal Session",benign,network-binding,Allow,1,,,,,2026-10-28T06:52:49.685Z
+run_122,S1,"Normal Session",benign,network-binding,Allow,1,,,,,2026-10-28T06:52:49.997Z
+run_123,S1,"Normal Session",benign,network-binding,Allow,1,,,,,2026-10-28T06:52:50.281Z
+run_124,S1,"Normal Session",benign,network-binding,Allow,1,,,,,2026-10-28T06:52:50.581Z
+run_125,S1,"Normal Session",benign,network-binding,Allow,1,,,,,2026-10-28T06:52:50.895Z
+run_126,S1,"Normal Session",benign,network-binding,Allow,1,,,,,2026-10-28T06:52:51.182Z
+run_127,S1,"Normal Session",benign,network-binding,Allow,1,,,,,2026-10-28T06:52:51.494Z
+run_128,S1,"Normal Session",benign,network-binding,Allow,1,,,,,2026-10-28T06:52:51.778Z
+run_129,S1,"Normal Session",benign,network-binding,Allow,1,,,,,2026-10-28T06:52:52.064Z
+run_130,S1,"Normal Session",benign,network-binding,Allow,1,,,,,2026-10-28T06:52:52.363Z
+run_131,S1,"Normal Session",benign,network-binding,Allow,1,,,,,2026-10-28T06:52:52.695Z
+run_132,S1,"Normal Session",benign,network-binding,Allow,1,,,,,2026-10-28T06:52:53.023Z
+run_133,S1,"Normal Session",benign,network-binding,Allow,1,,,,,2026-10-28T06:52:53.349Z
+run_134,S1,"Normal Session",benign,network-binding,Allow,1,,,,,2026-10-28T06:52:53.634Z
+run_135,S1,"Normal Session",benign,network-binding,Allow,1,,,,,2026-10-28T06:52:53.946Z
+run_136,S2,"Legitimate Network Change",benign,network-binding,Reject,0,,1.00,,,2026-10-28T06:52:54.242Z
+run_137,S2,"Legitimate Network Change",benign,network-binding,Reject,0,,1.00,,,2026-10-28T06:52:54.570Z
+run_138,S2,"Legitimate Network Change",benign,network-binding,Reject,0,,1.00,,,2026-10-28T06:52:54.867Z
+run_139,S2,"Legitimate Network Change",benign,network-binding,Reject,0,,2.00,,,2026-10-28T06:52:55.165Z
+run_140,S2,"Legitimate Network Change",benign,network-binding,Reject,0,,1.00,,,2026-10-28T06:52:55.463Z
+run_141,S2,"Legitimate Network Change",benign,network-binding,Reject,0,,1.00,,,2026-10-28T06:52:55.774Z
+run_142,S2,"Legitimate Network Change",benign,network-binding,Reject,0,,1.00,,,2026-10-28T06:52:56.070Z
+run_143,S2,"Legitimate Network Change",benign,network-binding,Reject,0,,1.00,,,2026-10-28T06:52:56.384Z
+run_144,S2,"Legitimate Network Change",benign,network-binding,Reject,0,,1.00,,,2026-10-28T06:52:56.713Z
+run_145,S2,"Legitimate Network Change",benign,network-binding,Reject,0,,1.00,,,2026-10-28T06:52:57.023Z
+run_146,S2,"Legitimate Network Change",benign,network-binding,Reject,0,,1.00,,,2026-10-28T06:52:57.369Z
+run_147,S2,"Legitimate Network Change",benign,network-binding,Reject,0,,1.00,,,2026-10-28T06:52:57.684Z
+run_148,S2,"Legitimate Network Change",benign,network-binding,Reject,0,,2.00,,,2026-10-28T06:52:57.998Z
+run_149,S2,"Legitimate Network Change",benign,network-binding,Reject,0,,1.00,,,2026-10-28T06:52:58.339Z
+run_150,S2,"Legitimate Network Change",benign,network-binding,Reject,0,,1.00,,,2026-10-28T06:52:58.621Z
+run_151,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:52:58.777Z
+run_152,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:52:58.945Z
+run_153,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:52:59.103Z
+run_154,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:52:59.260Z
+run_155,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-binding,Reject,1,,2.00,,,2026-10-28T06:52:59.418Z
+run_156,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-binding,Reject,1,,2.00,,,2026-10-28T06:52:59.576Z
+run_157,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-binding,Reject,1,,2.00,,,2026-10-28T06:52:59.732Z
+run_158,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:52:59.888Z
+run_159,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-binding,Reject,1,,2.00,,,2026-10-28T06:53:00.047Z
+run_160,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-binding,Reject,1,,2.00,,,2026-10-28T06:53:00.237Z
+run_161,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:00.390Z
+run_162,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:00.578Z
+run_163,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:00.751Z
+run_164,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:00.908Z
+run_165,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:01.062Z
+run_166,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-binding,Allow,0,,,,,2026-10-28T06:53:01.236Z
+run_167,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-binding,Allow,0,,,,,2026-10-28T06:53:01.408Z
+run_168,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-binding,Allow,0,,,,,2026-10-28T06:53:01.578Z
+run_169,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-binding,Allow,0,,,,,2026-10-28T06:53:01.765Z
+run_170,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-binding,Allow,0,,,,,2026-10-28T06:53:01.982Z
+run_171,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-binding,Allow,0,,,,,2026-10-28T06:53:02.172Z
+run_172,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-binding,Allow,0,,,,,2026-10-28T06:53:02.342Z
+run_173,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-binding,Allow,0,,,,,2026-10-28T06:53:02.514Z
+run_174,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-binding,Allow,0,,,,,2026-10-28T06:53:02.685Z
+run_175,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-binding,Allow,0,,,,,2026-10-28T06:53:02.874Z
+run_176,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-binding,Allow,0,,,,,2026-10-28T06:53:03.047Z
+run_177,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-binding,Allow,0,,,,,2026-10-28T06:53:03.219Z
+run_178,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-binding,Allow,0,,,,,2026-10-28T06:53:03.393Z
+run_179,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-binding,Allow,0,,,,,2026-10-28T06:53:03.567Z
+run_180,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-binding,Allow,0,,,,,2026-10-28T06:53:03.753Z
+run_181,S5,"Concurrent Interleaved Credential Use",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:03.928Z
+run_182,S5,"Concurrent Interleaved Credential Use",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:04.118Z
+run_183,S5,"Concurrent Interleaved Credential Use",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:04.308Z
+run_184,S5,"Concurrent Interleaved Credential Use",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:04.481Z
+run_185,S5,"Concurrent Interleaved Credential Use",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:04.655Z
+run_186,S5,"Concurrent Interleaved Credential Use",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:04.814Z
+run_187,S5,"Concurrent Interleaved Credential Use",attack,network-binding,Reject,1,,2.00,,,2026-10-28T06:53:05.000Z
+run_188,S5,"Concurrent Interleaved Credential Use",attack,network-binding,Reject,1,,2.00,,,2026-10-28T06:53:05.186Z
+run_189,S5,"Concurrent Interleaved Credential Use",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:05.374Z
+run_190,S5,"Concurrent Interleaved Credential Use",attack,network-binding,Reject,1,,2.00,,,2026-10-28T06:53:05.545Z
+run_191,S5,"Concurrent Interleaved Credential Use",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:05.748Z
+run_192,S5,"Concurrent Interleaved Credential Use",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:05.920Z
+run_193,S5,"Concurrent Interleaved Credential Use",attack,network-binding,Reject,1,,2.00,,,2026-10-28T06:53:06.109Z
+run_194,S5,"Concurrent Interleaved Credential Use",attack,network-binding,Reject,1,,3.00,,,2026-10-28T06:53:06.296Z
+run_195,S5,"Concurrent Interleaved Credential Use",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:06.484Z
+run_196,S6,"Sensitive Action from Anomalous Context",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:06.660Z
+run_197,S6,"Sensitive Action from Anomalous Context",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:06.831Z
+run_198,S6,"Sensitive Action from Anomalous Context",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:07.002Z
+run_199,S6,"Sensitive Action from Anomalous Context",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:07.175Z
+run_200,S6,"Sensitive Action from Anomalous Context",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:07.335Z
+run_201,S6,"Sensitive Action from Anomalous Context",attack,network-binding,Reject,1,,2.00,,,2026-10-28T06:53:07.492Z
+run_202,S6,"Sensitive Action from Anomalous Context",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:07.665Z
+run_203,S6,"Sensitive Action from Anomalous Context",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:07.838Z
+run_204,S6,"Sensitive Action from Anomalous Context",attack,network-binding,Reject,1,,3.00,,,2026-10-28T06:53:07.996Z
+run_205,S6,"Sensitive Action from Anomalous Context",attack,network-binding,Reject,1,,2.00,,,2026-10-28T06:53:08.153Z
+run_206,S6,"Sensitive Action from Anomalous Context",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:08.311Z
+run_207,S6,"Sensitive Action from Anomalous Context",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:08.467Z
+run_208,S6,"Sensitive Action from Anomalous Context",attack,network-binding,Reject,1,,2.00,,,2026-10-28T06:53:08.611Z
+run_209,S6,"Sensitive Action from Anomalous Context",attack,network-binding,Reject,1,,1.00,,,2026-10-28T06:53:08.769Z
+run_210,S6,"Sensitive Action from Anomalous Context",attack,network-binding,Reject,1,,2.00,,,2026-10-28T06:53:08.924Z
+run_211,S7,"Legitimate Sensitive Action (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:09.288Z
+run_212,S7,"Legitimate Sensitive Action (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:09.638Z
+run_213,S7,"Legitimate Sensitive Action (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:10.059Z
+run_214,S7,"Legitimate Sensitive Action (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:10.405Z
+run_215,S7,"Legitimate Sensitive Action (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:10.754Z
+run_216,S7,"Legitimate Sensitive Action (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:11.167Z
+run_217,S7,"Legitimate Sensitive Action (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:11.545Z
+run_218,S7,"Legitimate Sensitive Action (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:11.907Z
+run_219,S7,"Legitimate Sensitive Action (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:12.284Z
+run_220,S7,"Legitimate Sensitive Action (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:12.660Z
+run_221,S7,"Legitimate Sensitive Action (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:13.034Z
+run_222,S7,"Legitimate Sensitive Action (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:13.411Z
+run_223,S7,"Legitimate Sensitive Action (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:13.788Z
+run_224,S7,"Legitimate Sensitive Action (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:14.132Z
+run_225,S7,"Legitimate Sensitive Action (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:14.505Z
+run_226,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:14.944Z
+run_227,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:15.400Z
+run_228,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:15.852Z
+run_229,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:16.304Z
+run_230,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:16.743Z
+run_231,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:17.199Z
+run_232,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:17.671Z
+run_233,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:18.175Z
+run_234,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:18.663Z
+run_235,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:19.138Z
+run_236,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:19.591Z
+run_237,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:20.051Z
+run_238,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:20.497Z
+run_239,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:20.948Z
+run_240,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-binding,Allow,1,,,,,2026-10-28T06:53:21.419Z
+run_241,S1,"Normal Session",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:27.013Z
+run_242,S1,"Normal Session",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:27.356Z
+run_243,S1,"Normal Session",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:27.651Z
+run_244,S1,"Normal Session",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:27.947Z
+run_245,S1,"Normal Session",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:28.247Z
+run_246,S1,"Normal Session",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:28.574Z
+run_247,S1,"Normal Session",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:28.876Z
+run_248,S1,"Normal Session",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:29.188Z
+run_249,S1,"Normal Session",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:29.487Z
+run_250,S1,"Normal Session",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:29.798Z
+run_251,S1,"Normal Session",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:30.097Z
+run_252,S1,"Normal Session",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:30.409Z
+run_253,S1,"Normal Session",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:30.694Z
+run_254,S1,"Normal Session",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:30.979Z
+run_255,S1,"Normal Session",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:31.291Z
+run_256,S2,"Legitimate Network Change",benign,network-ua,Reject,0,,1.00,,,2026-10-28T06:53:31.603Z
+run_257,S2,"Legitimate Network Change",benign,network-ua,Reject,0,,1.00,,,2026-10-28T06:53:31.915Z
+run_258,S2,"Legitimate Network Change",benign,network-ua,Reject,0,,3.00,,,2026-10-28T06:53:32.241Z
+run_259,S2,"Legitimate Network Change",benign,network-ua,Reject,0,,2.00,,,2026-10-28T06:53:32.523Z
+run_260,S2,"Legitimate Network Change",benign,network-ua,Reject,0,,2.00,,,2026-10-28T06:53:32.806Z
+run_261,S2,"Legitimate Network Change",benign,network-ua,Reject,0,,1.00,,,2026-10-28T06:53:33.120Z
+run_262,S2,"Legitimate Network Change",benign,network-ua,Reject,0,,1.00,,,2026-10-28T06:53:33.422Z
+run_263,S2,"Legitimate Network Change",benign,network-ua,Reject,0,,1.00,,,2026-10-28T06:53:33.719Z
+run_264,S2,"Legitimate Network Change",benign,network-ua,Reject,0,,1.00,,,2026-10-28T06:53:34.034Z
+run_265,S2,"Legitimate Network Change",benign,network-ua,Reject,0,,1.00,,,2026-10-28T06:53:34.350Z
+run_266,S2,"Legitimate Network Change",benign,network-ua,Reject,0,,1.00,,,2026-10-28T06:53:34.650Z
+run_267,S2,"Legitimate Network Change",benign,network-ua,Reject,0,,2.00,,,2026-10-28T06:53:34.965Z
+run_268,S2,"Legitimate Network Change",benign,network-ua,Reject,0,,2.00,,,2026-10-28T06:53:35.263Z
+run_269,S2,"Legitimate Network Change",benign,network-ua,Reject,0,,2.00,,,2026-10-28T06:53:35.562Z
+run_270,S2,"Legitimate Network Change",benign,network-ua,Reject,0,,1.00,,,2026-10-28T06:53:35.846Z
+run_271,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-ua,Reject,1,,2.00,,,2026-10-28T06:53:36.003Z
+run_272,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-ua,Reject,1,,3.00,,,2026-10-28T06:53:36.159Z
+run_273,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:36.333Z
+run_274,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:36.491Z
+run_275,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:36.664Z
+run_276,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:36.834Z
+run_277,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:36.992Z
+run_278,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:37.177Z
+run_279,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:37.348Z
+run_280,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:37.525Z
+run_281,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:37.713Z
+run_282,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:37.886Z
+run_283,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:38.089Z
+run_284,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:38.248Z
+run_285,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:38.421Z
+run_286,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-ua,Allow,0,,,,,2026-10-28T06:53:38.611Z
+run_287,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-ua,Allow,0,,,,,2026-10-28T06:53:38.800Z
+run_288,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-ua,Allow,0,,,,,2026-10-28T06:53:38.988Z
+run_289,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-ua,Allow,0,,,,,2026-10-28T06:53:39.158Z
+run_290,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-ua,Allow,0,,,,,2026-10-28T06:53:39.332Z
+run_291,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-ua,Allow,0,,,,,2026-10-28T06:53:39.505Z
+run_292,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-ua,Allow,0,,,,,2026-10-28T06:53:39.695Z
+run_293,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-ua,Allow,0,,,,,2026-10-28T06:53:39.928Z
+run_294,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-ua,Allow,0,,,,,2026-10-28T06:53:40.087Z
+run_295,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-ua,Allow,0,,,,,2026-10-28T06:53:40.246Z
+run_296,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-ua,Allow,0,,,,,2026-10-28T06:53:40.436Z
+run_297,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-ua,Allow,0,,,,,2026-10-28T06:53:40.639Z
+run_298,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-ua,Allow,0,,,,,2026-10-28T06:53:40.825Z
+run_299,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-ua,Allow,0,,,,,2026-10-28T06:53:40.998Z
+run_300,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,network-ua,Allow,0,,,,,2026-10-28T06:53:41.173Z
+run_301,S5,"Concurrent Interleaved Credential Use",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:41.359Z
+run_302,S5,"Concurrent Interleaved Credential Use",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:41.534Z
+run_303,S5,"Concurrent Interleaved Credential Use",attack,network-ua,Reject,1,,2.00,,,2026-10-28T06:53:41.708Z
+run_304,S5,"Concurrent Interleaved Credential Use",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:41.893Z
+run_305,S5,"Concurrent Interleaved Credential Use",attack,network-ua,Reject,1,,2.00,,,2026-10-28T06:53:42.078Z
+run_306,S5,"Concurrent Interleaved Credential Use",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:42.251Z
+run_307,S5,"Concurrent Interleaved Credential Use",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:42.470Z
+run_308,S5,"Concurrent Interleaved Credential Use",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:42.661Z
+run_309,S5,"Concurrent Interleaved Credential Use",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:42.881Z
+run_310,S5,"Concurrent Interleaved Credential Use",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:43.097Z
+run_311,S5,"Concurrent Interleaved Credential Use",attack,network-ua,Reject,1,,2.00,,,2026-10-28T06:53:43.285Z
+run_312,S5,"Concurrent Interleaved Credential Use",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:43.473Z
+run_313,S5,"Concurrent Interleaved Credential Use",attack,network-ua,Reject,1,,2.00,,,2026-10-28T06:53:43.664Z
+run_314,S5,"Concurrent Interleaved Credential Use",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:43.864Z
+run_315,S5,"Concurrent Interleaved Credential Use",attack,network-ua,Reject,1,,3.00,,,2026-10-28T06:53:44.071Z
+run_316,S6,"Sensitive Action from Anomalous Context",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:44.276Z
+run_317,S6,"Sensitive Action from Anomalous Context",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:44.450Z
+run_318,S6,"Sensitive Action from Anomalous Context",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:44.625Z
+run_319,S6,"Sensitive Action from Anomalous Context",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:44.812Z
+run_320,S6,"Sensitive Action from Anomalous Context",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:44.987Z
+run_321,S6,"Sensitive Action from Anomalous Context",attack,network-ua,Reject,1,,3.00,,,2026-10-28T06:53:45.144Z
+run_322,S6,"Sensitive Action from Anomalous Context",attack,network-ua,Reject,1,,2.00,,,2026-10-28T06:53:45.319Z
+run_323,S6,"Sensitive Action from Anomalous Context",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:45.472Z
+run_324,S6,"Sensitive Action from Anomalous Context",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:45.630Z
+run_325,S6,"Sensitive Action from Anomalous Context",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:45.835Z
+run_326,S6,"Sensitive Action from Anomalous Context",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:46.009Z
+run_327,S6,"Sensitive Action from Anomalous Context",attack,network-ua,Reject,1,,3.00,,,2026-10-28T06:53:46.182Z
+run_328,S6,"Sensitive Action from Anomalous Context",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:46.354Z
+run_329,S6,"Sensitive Action from Anomalous Context",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:46.513Z
+run_330,S6,"Sensitive Action from Anomalous Context",attack,network-ua,Reject,1,,1.00,,,2026-10-28T06:53:46.689Z
+run_331,S7,"Legitimate Sensitive Action (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:47.097Z
+run_332,S7,"Legitimate Sensitive Action (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:47.475Z
+run_333,S7,"Legitimate Sensitive Action (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:47.834Z
+run_334,S7,"Legitimate Sensitive Action (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:48.214Z
+run_335,S7,"Legitimate Sensitive Action (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:48.607Z
+run_336,S7,"Legitimate Sensitive Action (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:49.000Z
+run_337,S7,"Legitimate Sensitive Action (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:49.408Z
+run_338,S7,"Legitimate Sensitive Action (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:49.816Z
+run_339,S7,"Legitimate Sensitive Action (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:50.256Z
+run_340,S7,"Legitimate Sensitive Action (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:50.649Z
+run_341,S7,"Legitimate Sensitive Action (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:51.025Z
+run_342,S7,"Legitimate Sensitive Action (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:51.417Z
+run_343,S7,"Legitimate Sensitive Action (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:51.841Z
+run_344,S7,"Legitimate Sensitive Action (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:52.219Z
+run_345,S7,"Legitimate Sensitive Action (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:52.607Z
+run_346,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:53.077Z
+run_347,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:53.592Z
+run_348,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:54.094Z
+run_349,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:54.583Z
+run_350,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:55.100Z
+run_351,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:55.571Z
+run_352,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:56.060Z
+run_353,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:56.534Z
+run_354,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:57.004Z
+run_355,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:57.523Z
+run_356,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:58.011Z
+run_357,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:58.466Z
+run_358,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:58.986Z
+run_359,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:59.502Z
+run_360,S8,"Legitimate Multi-Device Sequential (Benign)",benign,network-ua,Allow,1,,,,,2026-10-28T06:53:59.975Z
+run_361,S1,"Normal Session",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:05.847Z
+run_362,S1,"Normal Session",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:06.175Z
+run_363,S1,"Normal Session",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:06.505Z
+run_364,S1,"Normal Session",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:06.846Z
+run_365,S1,"Normal Session",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:07.173Z
+run_366,S1,"Normal Session",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:07.485Z
+run_367,S1,"Normal Session",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:07.767Z
+run_368,S1,"Normal Session",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:08.113Z
+run_369,S1,"Normal Session",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:08.473Z
+run_370,S1,"Normal Session",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:08.836Z
+run_371,S1,"Normal Session",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:09.168Z
+run_372,S1,"Normal Session",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:09.483Z
+run_373,S1,"Normal Session",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:09.797Z
+run_374,S1,"Normal Session",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:10.093Z
+run_375,S1,"Normal Session",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:10.378Z
+run_376,S2,"Legitimate Network Change",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:10.706Z
+run_377,S2,"Legitimate Network Change",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:11.053Z
+run_378,S2,"Legitimate Network Change",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:11.368Z
+run_379,S2,"Legitimate Network Change",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:11.685Z
+run_380,S2,"Legitimate Network Change",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:12.009Z
+run_381,S2,"Legitimate Network Change",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:12.365Z
+run_382,S2,"Legitimate Network Change",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:12.692Z
+run_383,S2,"Legitimate Network Change",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:13.056Z
+run_384,S2,"Legitimate Network Change",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:13.386Z
+run_385,S2,"Legitimate Network Change",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:13.701Z
+run_386,S2,"Legitimate Network Change",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:14.018Z
+run_387,S2,"Legitimate Network Change",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:14.349Z
+run_388,S2,"Legitimate Network Change",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:14.713Z
+run_389,S2,"Legitimate Network Change",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:15.043Z
+run_390,S2,"Legitimate Network Change",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:15.344Z
+run_391,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:15.512Z
+run_392,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:15.662Z
+run_393,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:15.834Z
+run_394,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:16.007Z
+run_395,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:16.182Z
+run_396,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:16.384Z
+run_397,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,session-guard,Step-Up,1,,5.00,,,2026-10-28T06:54:16.538Z
+run_398,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:16.713Z
+run_399,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:16.904Z
+run_400,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,session-guard,Step-Up,1,,2.00,,,2026-10-28T06:54:17.090Z
+run_401,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,session-guard,Step-Up,1,,2.00,,,2026-10-28T06:54:17.264Z
+run_402,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:17.449Z
+run_403,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:17.605Z
+run_404,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:17.762Z
+run_405,S3,"Stolen Credential: Foreign Network + Foreign UA (A1)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:17.938Z
+run_406,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:18.125Z
+run_407,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:18.321Z
+run_408,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,session-guard,Step-Up,1,,2.00,,,2026-10-28T06:54:18.504Z
+run_409,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:18.693Z
+run_410,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:18.882Z
+run_411,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:19.057Z
+run_412,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:19.230Z
+run_413,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:19.406Z
+run_414,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:19.581Z
+run_415,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:19.769Z
+run_416,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:19.990Z
+run_417,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,session-guard,Step-Up,1,,7.00,,,2026-10-28T06:54:20.192Z
+run_418,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:20.444Z
+run_419,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,session-guard,Step-Up,1,,2.00,,,2026-10-28T06:54:20.652Z
+run_420,S4,"Stolen Credential: Same Network + Spoofed UA (A2)",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:20.826Z
+run_421,S5,"Concurrent Interleaved Credential Use",attack,session-guard,Step-Up,1,,2.00,,,2026-10-28T06:54:21.056Z
+run_422,S5,"Concurrent Interleaved Credential Use",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:21.240Z
+run_423,S5,"Concurrent Interleaved Credential Use",attack,session-guard,Step-Up,1,,5.00,,,2026-10-28T06:54:21.457Z
+run_424,S5,"Concurrent Interleaved Credential Use",attack,session-guard,Step-Up,1,,4.00,,,2026-10-28T06:54:21.636Z
+run_425,S5,"Concurrent Interleaved Credential Use",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:21.844Z
+run_426,S5,"Concurrent Interleaved Credential Use",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:22.030Z
+run_427,S5,"Concurrent Interleaved Credential Use",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:22.252Z
+run_428,S5,"Concurrent Interleaved Credential Use",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:22.440Z
+run_429,S5,"Concurrent Interleaved Credential Use",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:22.629Z
+run_430,S5,"Concurrent Interleaved Credential Use",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:22.832Z
+run_431,S5,"Concurrent Interleaved Credential Use",attack,session-guard,Step-Up,1,,6.00,,,2026-10-28T06:54:23.025Z
+run_432,S5,"Concurrent Interleaved Credential Use",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:23.215Z
+run_433,S5,"Concurrent Interleaved Credential Use",attack,session-guard,Step-Up,1,,5.00,,,2026-10-28T06:54:23.422Z
+run_434,S5,"Concurrent Interleaved Credential Use",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:23.641Z
+run_435,S5,"Concurrent Interleaved Credential Use",attack,session-guard,Step-Up,1,,1.00,,,2026-10-28T06:54:23.856Z
+run_436,S6,"Sensitive Action from Anomalous Context",attack,session-guard,Reject,1,,1.00,2.00,2.00,2026-10-28T06:54:24.046Z
+run_437,S6,"Sensitive Action from Anomalous Context",attack,session-guard,Reject,1,,1.00,2.00,1.00,2026-10-28T06:54:24.234Z
+run_438,S6,"Sensitive Action from Anomalous Context",attack,session-guard,Reject,1,,1.00,2.00,2.00,2026-10-28T06:54:24.427Z
+run_439,S6,"Sensitive Action from Anomalous Context",attack,session-guard,Reject,1,,1.00,2.00,1.00,2026-10-28T06:54:24.592Z
+run_440,S6,"Sensitive Action from Anomalous Context",attack,session-guard,Reject,1,,1.00,2.00,1.00,2026-10-28T06:54:24.752Z
+run_441,S6,"Sensitive Action from Anomalous Context",attack,session-guard,Reject,1,,1.00,1.00,1.00,2026-10-28T06:54:24.919Z
+run_442,S6,"Sensitive Action from Anomalous Context",attack,session-guard,Reject,1,,10.00,1.00,1.00,2026-10-28T06:54:25.078Z
+run_443,S6,"Sensitive Action from Anomalous Context",attack,session-guard,Reject,1,,1.00,2.00,1.00,2026-10-28T06:54:25.237Z
+run_444,S6,"Sensitive Action from Anomalous Context",attack,session-guard,Reject,1,,1.00,2.00,1.00,2026-10-28T06:54:25.408Z
+run_445,S6,"Sensitive Action from Anomalous Context",attack,session-guard,Reject,1,,6.00,1.00,1.00,2026-10-28T06:54:25.627Z
+run_446,S6,"Sensitive Action from Anomalous Context",attack,session-guard,Reject,1,,1.00,2.00,1.00,2026-10-28T06:54:25.789Z
+run_447,S6,"Sensitive Action from Anomalous Context",attack,session-guard,Reject,1,,1.00,2.00,1.00,2026-10-28T06:54:25.979Z
+run_448,S6,"Sensitive Action from Anomalous Context",attack,session-guard,Reject,1,,10.00,1.00,1.00,2026-10-28T06:54:26.150Z
+run_449,S6,"Sensitive Action from Anomalous Context",attack,session-guard,Reject,1,,1.00,1.00,1.00,2026-10-28T06:54:26.321Z
+run_450,S6,"Sensitive Action from Anomalous Context",attack,session-guard,Reject,1,,12.00,2.00,1.00,2026-10-28T06:54:26.500Z
+run_451,S7,"Legitimate Sensitive Action (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:26.887Z
+run_452,S7,"Legitimate Sensitive Action (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:27.270Z
+run_453,S7,"Legitimate Sensitive Action (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:27.672Z
+run_454,S7,"Legitimate Sensitive Action (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:28.113Z
+run_455,S7,"Legitimate Sensitive Action (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:28.493Z
+run_456,S7,"Legitimate Sensitive Action (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:28.900Z
+run_457,S7,"Legitimate Sensitive Action (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:29.331Z
+run_458,S7,"Legitimate Sensitive Action (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:29.733Z
+run_459,S7,"Legitimate Sensitive Action (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:30.110Z
+run_460,S7,"Legitimate Sensitive Action (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:30.458Z
+run_461,S7,"Legitimate Sensitive Action (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:30.837Z
+run_462,S7,"Legitimate Sensitive Action (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:31.227Z
+run_463,S7,"Legitimate Sensitive Action (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:31.650Z
+run_464,S7,"Legitimate Sensitive Action (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:32.039Z
+run_465,S7,"Legitimate Sensitive Action (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:32.400Z
+run_466,S8,"Legitimate Multi-Device Sequential (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:32.836Z
+run_467,S8,"Legitimate Multi-Device Sequential (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:33.318Z
+run_468,S8,"Legitimate Multi-Device Sequential (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:33.787Z
+run_469,S8,"Legitimate Multi-Device Sequential (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:34.323Z
+run_470,S8,"Legitimate Multi-Device Sequential (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:34.810Z
+run_471,S8,"Legitimate Multi-Device Sequential (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:35.281Z
+run_472,S8,"Legitimate Multi-Device Sequential (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:35.768Z
+run_473,S8,"Legitimate Multi-Device Sequential (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:36.224Z
+run_474,S8,"Legitimate Multi-Device Sequential (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:36.681Z
+run_475,S8,"Legitimate Multi-Device Sequential (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:37.168Z
+run_476,S8,"Legitimate Multi-Device Sequential (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:37.698Z
+run_477,S8,"Legitimate Multi-Device Sequential (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:38.172Z
+run_478,S8,"Legitimate Multi-Device Sequential (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:38.687Z
+run_479,S8,"Legitimate Multi-Device Sequential (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:39.223Z
+run_480,S8,"Legitimate Multi-Device Sequential (Benign)",benign,session-guard,Allow,1,,,,,2026-10-28T06:54:39.680Z
